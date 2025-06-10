@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #3161e0;
+    height: 75px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-head {
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 15%;
+}
+
+.link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 15%;
+    text-align: right;
+}
+
+button {
+    height: 33px;
+    width: 67px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
