@@ -57,7 +57,7 @@ a {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    min-height: 500px;
 }
 
 .section-a {
@@ -100,4 +100,33 @@ a {
     border-radius: 25px;
     width: 290px;
     height: 50px;
+}
+
+.container-2 {
+    display: flex;
+    padding-top: 135px;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    min-width: 550px;
+    vertical-align: middle;
+}
+
+#item1 {
+    width: 55%;
+}
+
+#description {
+    width: 30%;
+}
+
+#description h2 {
+    font-size: 2.6rem;
+    padding-top: 1.5rem;
+}
+
+#description p {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
