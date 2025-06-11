@@ -104,7 +104,8 @@ a {
 
 .container-2 {
     display: flex;
-    padding-top: 135px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     width: 70%;
     margin: 0 auto;
     justify-content: space-between;
@@ -129,4 +130,86 @@ a {
     margin-top: 2rem;
     font-size: 1.1rem;
     line-height: 1.5;
+}
+
+.container-3 {
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    min-height: 550px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.container-3 h2 {
+    font-size: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.container-3 p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: 880px;
+    margin: 0 auto;
+}
+
+#item4 {
+    width: 150%;
+}
+
+h3 {
+    font-size: 1.7rem;
+    line-height: 2;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    line-height: 5;
+    margin-bottom: 2rem;
+}
+
+.scarica {
+    background-color: #8ea1e1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #23272a;
+    min-height: 600px;
+}
+
+.container-4 {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 5rem;
+}
+
+.flex {
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 2rem;
+    line-height: 2;
+}
+
+.flex p {
+    font-size: 2rem;
+    line-height: 0;
+    color: #7188d7;
+}
+
+ol:first-child {
+    color: #7188d7;
+}
+
+ol {
+    text-decoration: none;
+    list-style-type: none;
 }
