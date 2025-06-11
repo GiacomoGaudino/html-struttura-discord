@@ -198,9 +198,10 @@ footer {
 
 .flex {
     display: flex;
-    gap: 4rem;
+    gap: 5rem;
     padding-bottom: 2rem;
     line-height: 2;
+    font-size: 14px;
 }
 
 .flex span {
@@ -211,6 +212,7 @@ footer {
 
 ol:first-child {
     color: #7188d7;
+    font-weight: 600;
 }
 
 ol {
@@ -220,4 +222,37 @@ ol {
 
 hr {
     border-color: #546080;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.registrati {
+    height: 33px;
+    width: 80px;
+    background-color: #8ea1e1;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+#lingua {
+    padding-top: 1rem;
+}
+
+#ita {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.flag {
+    width: 20px;
+}
+
+#logo-ft {
+    width: 110px;
 }
