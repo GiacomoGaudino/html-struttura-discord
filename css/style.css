@@ -132,6 +132,10 @@ a {
     line-height: 1.5;
 }
 
+.grey {
+    background-color: #f6f6f6;
+}
+
 .container-3 {
     width: 70%;
     margin: 0 auto;
@@ -199,7 +203,7 @@ footer {
     line-height: 2;
 }
 
-.flex p {
+.flex span {
     font-size: 2rem;
     line-height: 0;
     color: #7188d7;
@@ -212,4 +216,8 @@ ol:first-child {
 ol {
     text-decoration: none;
     list-style-type: none;
+}
+
+hr {
+    border-color: #546080;
 }
