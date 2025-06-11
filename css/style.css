@@ -213,10 +213,10 @@ footer {
 
 .flex {
     display: flex;
-    gap: 5rem;
     padding-bottom: 2rem;
     line-height: 2;
     font-size: 14px;
+    gap: 90px;
 }
 
 .flex span {
@@ -225,7 +225,7 @@ footer {
     color: #7188d7;
 }
 
-ol:first-child {
+ol> :first-child {
     color: #7188d7;
     font-weight: 600;
 }
@@ -281,4 +281,8 @@ hr {
 .icon {
     width: 20px;
     padding-top: 1rem;
+}
+
+#item-lang {
+    flex-grow: 2;
 }
