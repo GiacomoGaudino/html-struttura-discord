@@ -14,7 +14,7 @@ img {
     max-width: 100%;
 }
 
-.container-head {
+.jumbotron {
     height: 75px;
     margin: auto;
     align-items: center;
@@ -53,7 +53,7 @@ a {
     color: white;
 }
 
-.container-1 {
+.banner {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ a {
     height: 50px;
 }
 
-.container-2 {
+.container {
     display: flex;
     padding-top: 120px;
     padding-bottom: 150px;
@@ -151,7 +151,7 @@ a {
     padding-top: 60px;
 }
 
-.container-3 {
+.tech {
     width: 70%;
     margin: 0 auto;
     align-items: center;
@@ -161,12 +161,16 @@ a {
     padding-bottom: 150px;
 }
 
-.container-3 h2 {
-    font-size: 2.6rem;
-    margin-bottom: 1.5rem;
+.item-grow {
+    width: 30%;
 }
 
-.container-3 p {
+#grow p {
+    font-size: 2rem;
+    display: inline;
+}
+
+.tech p {
     font-size: 1.1rem;
     line-height: 1.5;
     width: 880px;
@@ -205,7 +209,7 @@ footer {
     min-height: 600px;
 }
 
-.container-4 {
+.container-ft {
     margin: 0 auto;
     width: 70%;
     padding-top: 5rem;
@@ -216,10 +220,10 @@ footer {
     padding-bottom: 2rem;
     line-height: 2;
     font-size: 14px;
-    gap: 90px;
+    gap: 30px;
 }
 
-.flex span {
+.flex p {
     font-size: 2rem;
     line-height: 0;
     color: #7188d7;
@@ -285,4 +289,9 @@ hr {
 
 #item-lang {
     flex-grow: 2;
+}
+
+.item-list {
+    width: 15%;
+    flex-grow: 1;
 }
